@@ -43,6 +43,10 @@ public class EventMaster : MonoBehaviour
         {
             correctTimeline = true;
         }
+        else
+        {
+            GameObject.Find("Detector").GetComponent<DetectorScript>().IncorrectGuess();
+        }
 
         Debug.Log(correctTimeline);
     }

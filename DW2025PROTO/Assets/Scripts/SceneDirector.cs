@@ -43,6 +43,7 @@ public class SceneDirector : MonoBehaviour
         if(selected != terrorSelectedNum)
         {
             Debug.Log("INCORRECT");
+            GameObject.Find("Detector").GetComponent<DetectorScript>().IncorrectGuess();
         }
     }
 }

@@ -48,6 +48,10 @@ public class DetectorScript : MonoBehaviour
 
         UpdateGraph();
     }
+    public void IncorrectGuess()
+    {
+        guessesRemaining -= 1; if (guessesRemaining < 0) { guessesRemaining = 0; }
+    }
     void UpdateGraph()
     {
         graphTimer -= Time.deltaTime;
