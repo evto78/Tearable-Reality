@@ -16,7 +16,7 @@ public class ClueManager : MonoBehaviour
     {
         foreach (Clue clue in allClues)
         {
-            Debug.Log("Clue: " + clue.name + ". Is it collected? " + clue.collected);
+            //Debug.Log("Clue: " + clue.name + ". Is it collected? " + clue.collected);
         }
     }
 }

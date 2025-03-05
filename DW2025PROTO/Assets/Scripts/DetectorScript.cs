@@ -15,12 +15,14 @@ public class DetectorScript : MonoBehaviour
     public Sprite on;
     public Sprite off;
     public float bobIntensity;
-    public int guessesRemaining;
-    public int guessesMax;
+    public float guessesRemaining;
+    public float guessesMax;
     public float beepFreqMin;
     public float beepFreqMax;
     float curBeepFreq;
     float beepFreqTimer;
+    float graphTimer;
+    int graphSprite;
     void Start()
     {
         image = gameObject.GetComponent<Image>();
@@ -28,14 +30,51 @@ public class DetectorScript : MonoBehaviour
         guessesRemaining = guessesMax;
         beepFreqTimer = beepFreqMin;
         curBeepFreq = beepFreqMin;
+        graphSprite = 0;
+        graph.sprite = graphLvl0[0];
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Alpha1)) { guessesRemaining -= 1; }
+
         beepFreqTimer -= Time.deltaTime;
 
         if(beepFreqTimer <= 0) { image.sprite = on; beepFreqTimer = curBeepFreq; }
         if(beepFreqTimer <= ((curBeepFreq * 3) / 4)) { image.sprite = off; }
+
+        curBeepFreq = Mathf.Lerp(beepFreqMax, beepFreqMin, guessesRemaining / guessesMax);
+
+        UpdateGraph();
+    }
+    void UpdateGraph()
+    {
+        graphTimer -= Time.deltaTime;
+        if (graphTimer <= 0)
+        {
+            graphSprite += 1;
+            if(graphSprite >= 5) { graphSprite = 0; }
+        }
+        if (guessesRemaining / guessesMax == 1)
+        {
+            graph.sprite = graphLvl0[graphSprite];
+        }
+        else if (guessesRemaining / guessesMax >= 0.8)
+        {
+            graph.sprite = graphLvl1[graphSprite];
+        }
+        else if (guessesRemaining / guessesMax >= 0.6)
+        {
+            graph.sprite = graphLvl2[graphSprite];
+        }
+        else if (guessesRemaining / guessesMax >= 0.4)
+        {
+            graph.sprite = graphLvl3[graphSprite];
+        }
+        else if (guessesRemaining / guessesMax >= 0)
+        {
+            graph.sprite = graphLvl4[graphSprite];
+        }
     }
 }
