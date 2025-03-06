@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SceneDirector : MonoBehaviour
 {
 
-    string[] terrors = {"Galizard", "Icesythecle", "Clean Claw"};
+    string[] terrors = {"Galizard", "Icesythecle", "Clean Claw", "Spot", "Moonchild", "Brazen Bull"};
 
     public int terrorSelectedNum;
     public int selected;
@@ -61,6 +61,27 @@ public class SceneDirector : MonoBehaviour
     {
 
         selected = 2;
+
+    }
+
+    public void selector4()
+    {
+
+        selected = 3;
+
+    }
+
+    public void selector5()
+    {
+
+        selected = 4;
+
+    }
+
+    public void selector6()
+    {
+
+        selected = 5;
 
     }
 

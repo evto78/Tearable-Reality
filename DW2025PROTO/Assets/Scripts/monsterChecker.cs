@@ -8,9 +8,13 @@ public class monsterChecker : MonoBehaviour
     public bool menu;
 
     private Canvas canvas;
+    public AudioSource openClipboard;
+    public AudioSource closeClipboard;
 
     void Start()
     {
+        openClipboard = GetComponent<AudioSource>();
+        closeClipboard = GetComponent<AudioSource>();
         canvas = GetComponent<Canvas>();
         canvas.enabled = false;
     }
@@ -22,6 +26,7 @@ public class monsterChecker : MonoBehaviour
         {
             canvas.enabled = true;
             menu = true;
+            openClipboard.Play();
         }
 
     }
@@ -32,6 +37,7 @@ public class monsterChecker : MonoBehaviour
         {
             canvas.enabled = false;
             menu = false;
+            closeClipboard.Play();
         }
     }
 }
