@@ -13,10 +13,13 @@ public class EventMaster : MonoBehaviour
 
     MouseDrag mouseDrag;
 
+    SceneChange sceneC;
+
     // Start is called before the first frame update
     void Start()
     {
         correctTimeline = false;
+        sceneC = GetComponent<SceneChange>();
     }
 
     // Update is called once per frame
@@ -43,7 +46,7 @@ public class EventMaster : MonoBehaviour
         if(correctScore == events.Length)
         {
             correctTimeline = true;
-            SceneManager.LoadScene("TestEnd");
+            sceneC.changeScene();
         }
         else
         {

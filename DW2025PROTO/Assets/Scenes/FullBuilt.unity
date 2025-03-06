@@ -3699,6 +3699,24 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 9216891922180191236, guid: c45c3df04e5c0a94aaa852c5d695816c, type: 3}
   m_PrefabInstance: {fileID: 1448391680}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1449640342 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7984759717258414478, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
+  m_PrefabInstance: {fileID: 1953758936}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1449640345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449640342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5160ba2959921c649bb834b52e7b9425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: DarkTransition
 --- !u!1 &1480660801
 GameObject:
   m_ObjectHideFlags: 0
@@ -5046,7 +5064,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7984759717258414478, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1449640345}
   m_SourcePrefab: {fileID: 100100000, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
 --- !u!1 &1953758937 stripped
 GameObject:
