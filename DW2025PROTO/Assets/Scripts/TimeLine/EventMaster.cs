@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EventMaster : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class EventMaster : MonoBehaviour
         if(correctScore == events.Length)
         {
             correctTimeline = true;
+            SceneManager.LoadScene("TestEnd");
         }
         else
         {
