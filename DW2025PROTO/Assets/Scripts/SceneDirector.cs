@@ -73,7 +73,14 @@ public class SceneDirector : MonoBehaviour
             {
                 box.interactable = false;
             }
+
             timelineButton.interactable = true;
+
+            if (TutorialController.instance.tutorialActive)
+            {
+                TutorialController.instance.tutorialGuessRight();
+            }
+            
         }
 
         if(correctGuess == false)

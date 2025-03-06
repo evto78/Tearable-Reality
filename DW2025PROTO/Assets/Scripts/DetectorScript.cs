@@ -50,6 +50,11 @@ public class DetectorScript : MonoBehaviour
     }
     public void IncorrectGuess()
     {
+        if(guessesRemaining == guessesMax && TutorialController.instance.tutorialActive)
+        {
+            TutorialController.instance.tutorialGuessWrong();
+        }
+
         guessesRemaining -= 1; if (guessesRemaining < 0) { guessesRemaining = 0; }
     }
     void UpdateGraph()

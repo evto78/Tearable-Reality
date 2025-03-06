@@ -4626,7 +4626,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Timeline
+  m_text: Assemble Timeline
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5341,6 +5341,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 989859271401735398, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
+      propertyPath: tutorialActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1649216241177160974, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
       propertyPath: allClues.Array.size
       value: 7
@@ -5456,6 +5460,10 @@ PrefabInstance:
     - target: {fileID: 7886104038164449854, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
       propertyPath: outPos.x
       value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 8121413410048643941, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 8357528713601761290, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
       propertyPath: m_margin.z
@@ -5753,9 +5761,9 @@ SceneRoots:
   - {fileID: 1308649331}
   - {fileID: 1217132854}
   - {fileID: 1997042695}
+  - {fileID: 2088248832}
   - {fileID: 1448391680}
   - {fileID: 1788197}
-  - {fileID: 2088248832}
   - {fileID: 336993145}
   - {fileID: 1016401374}
   - {fileID: 624586404}
