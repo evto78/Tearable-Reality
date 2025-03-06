@@ -9,10 +9,14 @@ public class SpeechController : MonoBehaviour
     public GameObject speechObj;
     TextMeshProUGUI speechText;
 
+    public static SpeechController instance;
+
     // Start is called before the first frame update
     void Start()
     {
         //speechText = speechText.GetComponentInChildren<TextMeshProUGUI>();
+
+        instance = this;
 
         displayText("AOAOAOA", 5, false);
     }
