@@ -13,10 +13,25 @@ public class SceneDirector : MonoBehaviour
 
     string terrorSelected;
 
+    public bool correctGuess;
+
 
     void Start()
     {
         terrorSelected = terrors[terrorSelectedNum];
+    }
+
+    void Update()
+    {
+        if(selected == terrorSelectedNum)
+        {
+            correctGuess = true;
+        } 
+
+        if (selected != terrorSelectedNum)
+        {
+            correctGuess = false;
+        }
     }
 
     public void selector1()
@@ -38,12 +53,12 @@ public class SceneDirector : MonoBehaviour
 
     public void check()
     {
-        if(selected == terrorSelectedNum)
+        if(correctGuess == true)
         {
             Debug.Log("CORRECT");
         }
 
-        if(selected != terrorSelectedNum)
+        if(correctGuess == false)
         {
             Debug.Log("INCORRECT");
             GameObject.Find("Detector").GetComponent<DetectorScript>().IncorrectGuess();
