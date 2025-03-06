@@ -5186,8 +5186,12 @@ PrefabInstance:
       value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 935160177827397772, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 935160177827397772, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 393
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 935160177827397772, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -5300,6 +5304,14 @@ PrefabInstance:
     - target: {fileID: 7248040036498131658, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886104038164449854, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
+      propertyPath: outPos.x
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 8357528713601761290, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
+      propertyPath: m_margin.z
+      value: 66.4794
       objectReference: {fileID: 0}
     - target: {fileID: 8775031508099895786, guid: 370e7c928b2910c4a8c43786653fa4fb, type: 3}
       propertyPath: monsterCheck

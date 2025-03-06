@@ -38,17 +38,17 @@ public class DialougeBoxPopUp : MonoBehaviour
         }
         else if (poppingIn)
         {
-            myRect.position = new Vector3(Mathf.Lerp(inPos.x, outPos.x, popInTimer) + 1950, myRect.position.y, 0);
-            if (popInTimer <= 0) { poppingIn = false; }
+            //myRect.position = new Vector3(Mathf.Lerp(inPos.x, outPos.x, popInTimer) + 1950, myRect.position.y, 0);
+            //if (popInTimer <= 0) { poppingIn = false; }
         }
     }
     public void PopOut(string txt)
     {
-        myRect.position = inPos;
-        poppingIn = false;
-        staying = false;
+        //myRect.position = inPos;
+        //poppingIn = false;
+        //staying = false;
         popOutTimer = 1f;
-        poppingOut = true;
+        //poppingOut = true;
         descText.text = txt;
     }
 }
