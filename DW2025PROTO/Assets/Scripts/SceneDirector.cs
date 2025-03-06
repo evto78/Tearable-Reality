@@ -13,11 +13,24 @@ public class SceneDirector : MonoBehaviour
 
     string terrorSelected;
 
+    public Button timelineButton;
     public bool correctGuess;
-
+    public GameObject checklistHolder;
+    public List<Toggle> checks = new List<Toggle>();
 
     void Start()
     {
+        timelineButton = GameObject.Find("TimelineButton").GetComponent<Button>();
+        timelineButton.interactable = false;
+        checklistHolder = GameObject.Find("monsterChecker");
+        for(int i = 0; i < checklistHolder.transform.childCount; i++)
+        {
+            if (checklistHolder.transform.GetChild(i).TryGetComponent<Toggle>(out Toggle givenToggle))
+            {
+                checks.Add(givenToggle);
+
+            }
+        }
         terrorSelected = terrors[terrorSelectedNum];
     }
 
@@ -55,12 +68,17 @@ public class SceneDirector : MonoBehaviour
     {
         if(correctGuess == true)
         {
-            Debug.Log("CORRECT");
+            //Debug.Log("CORRECT");
+            foreach(Toggle box in checks)
+            {
+                box.interactable = false;
+            }
+            timelineButton.interactable = true;
         }
 
         if(correctGuess == false)
         {
-            Debug.Log("INCORRECT");
+            //Debug.Log("INCORRECT");
             GameObject.Find("Detector").GetComponent<DetectorScript>().IncorrectGuess();
         }
     }
