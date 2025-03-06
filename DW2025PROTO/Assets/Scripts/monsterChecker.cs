@@ -23,6 +23,7 @@ public class monsterChecker : MonoBehaviour
             canvas.enabled = true;
             menu = true;
         }
+
     }
 
     public void closeMenu()
