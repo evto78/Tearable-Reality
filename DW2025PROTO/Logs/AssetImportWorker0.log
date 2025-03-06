@@ -15,7 +15,7 @@ C:/Users/theoy/Documents/GitHub/Tearable-Reality/DW2025PROTO
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64267
+64785
 Successfully changed project path to: C:/Users/theoy/Documents/GitHub/Tearable-Reality/DW2025PROTO
 C:/Users/theoy/Documents/GitHub/Tearable-Reality/DW2025PROTO
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/theoy/Documents/GitHub/Tearable-Reality/DW2025PROTO
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21968]  Target information:
+Player connection [6196]  Target information:
 
-Player connection [21968]  * "[IP] 10.24.16.234 [Port] 0 [Flags] 2 [Guid] 2004862427 [EditorId] 2004862427 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NPBARAM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6196]  * "[IP] 10.24.16.234 [Port] 0 [Flags] 2 [Guid] 2512788118 [EditorId] 2512788118 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NPBARAM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21968] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6196] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6196] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 10.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
@@ -72,17 +72,17 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009155 seconds.
-- Loaded All Assemblies, in  0.357 seconds
+Registered in 0.010241 seconds.
+- Loaded All Assemblies, in  0.369 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.297 seconds
-Domain Reload Profiling: 652ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.295 seconds
+Domain Reload Profiling: 663ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -90,26 +90,26 @@ Domain Reload Profiling: 652ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (64ms)
+	initialDomainReloadingComplete (67ms)
 	LoadAllAssembliesAndSetupDomain (139ms)
-		LoadAssemblies (104ms)
+		LoadAssemblies (111ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (137ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (123ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (122ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (297ms)
+	FinalizeReload (296ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (246ms)
+		SetupLoadedEditorAssemblies (245ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (170ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,104 +118,106 @@ Domain Reload Profiling: 652ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Symbol file data-000002D26374FE40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000029AA014C060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285F36260 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000029AA0168020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D286355020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000029AA0246530 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D287A73840 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000029AA01A9830 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285F36260 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000029AA0246530 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D26374FE40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000029AA014C060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D26374FE40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000029AA01A9830 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285F36260 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000029C5E0171D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285A62010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000029AA014C060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D26374FE40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000029AA135F020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D2864E0C30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000029C5E037FE0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285A62010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000029C5E037FE0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285E5C030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000029AA1377830 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D263768650 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000029AA1377830 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285A83A20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000029C5E0423F0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285F3E270 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000029AA1399240 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285A83A20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000029C3ABF9650 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D2865EE020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000029AA13A1250 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285A31490 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000029AA0E79020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285A83A20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000029AA054F420 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D264079C40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000029AA0567230 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285A96230 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000029AA0E79020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285A492A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000029AA0567230 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285A492A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000029AA0567230 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D286625630 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000029AA0E8B830 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285C64020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000029AA0EC2E40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D263FB7230 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000029AA0EC2E40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.635 seconds
+Symbol file data-0000029C5DEF9220 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.766 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.657 seconds
-Domain Reload Profiling: 1289ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.612 seconds
+Domain Reload Profiling: 1376ms
+	BeginReloadAssembly (153ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (389ms)
-		LoadAssemblies (287ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (408ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (148ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (658ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (161ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (612ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (484ms)
+		SetupLoadedEditorAssemblies (463ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3619.
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3619.
 Memory consumption went from 123.7 MB to 123.6 MB.
-Total: 2.645900 ms (FindLiveObjects: 0.186500 ms CreateObjectMapping: 0.072200 ms MarkObjects: 2.308300 ms  DeleteObjects: 0.078000 ms)
+Total: 3.101400 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.096800 ms MarkObjects: 2.649000 ms  DeleteObjects: 0.090100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -232,306 +234,265 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 63218.346457 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b0e72965cddef7f6e956a6a5c71fa115') in 0.078190 seconds
+  Time since last request: 65026.430244 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2b66d2c83506dc906b0711104d55a923') in 0.200577 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 116
+Number of asset objects unloaded after import = 125
 ========================================================================
 Received Import Request.
-  Time since last request: 11.145775 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '5a30fb8d276318359ed4eb591fcd8c50') in 0.022281 seconds
+  Time since last request: 18.767716 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4bce2c320c6c1416b1dceaced4c5608e') in 0.047956 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 125
 ========================================================================
 Received Import Request.
-  Time since last request: 7.028259 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e4468e7ff6507bdf495ad36f5a5b5b36') in 0.024310 seconds
+  Time since last request: 7.433592 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4d08183fa0cf528373e644add2bd6ea2') in 0.048081 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 125
 ========================================================================
 Received Import Request.
-  Time since last request: 7.618576 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '97f3c37952346963af11eff6b754a119') in 0.020411 seconds
+  Time since last request: 115.289054 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1209b40c1d2998ce48d0dadc7c417f7e') in 0.048638 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 1.995948 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'bfcc09f8a0df43ebe3aaf3513fa055f8') in 0.022485 seconds
+  Time since last request: 6.407129 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a7308785770e24f1cd3e757125be5cd4') in 0.056523 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 6.818383 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b1b1162ffbedcdd512d33fddd5825f94') in 0.020940 seconds
+  Time since last request: 5.173689 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f0571a6b1671a4239e5d37b0be9f92e6') in 0.043597 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 5.452899 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c7b748dfa5c6fecf53b591f950d8914d') in 0.020886 seconds
+  Time since last request: 2.591203 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '64e42e62800e7eb47d58e90ac06f211f') in 0.044531 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 4.846719 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '4718cdaee2a23ddc53e6a461ba093615') in 0.021553 seconds
+  Time since last request: 0.553029 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ec06220b164620e3a5daf4e2ffde5d5d') in 0.046168 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 4.010682 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '524764361f8b480a7903058d7008ae24') in 0.020198 seconds
+  Time since last request: 6.851251 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b93aa33c8bad6503a6be3d5cec5e3379') in 0.053698 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 1.795638 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cfde00dfeca333b613e9d33569a42a2b') in 0.020796 seconds
+  Time since last request: 7.613999 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4e308142f30a4d443106a6e9fa600c93') in 0.048434 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 3.016851 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'de987fd7d03de25e7e17b3bef2c0a09a') in 0.022617 seconds
+  Time since last request: 24.164316 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3e69f211712c3673255771e464a0f351') in 0.048502 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 19.554573 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '02773cb7577b9ef8ce8aedfb664542b5') in 0.020914 seconds
+  Time since last request: 6.235094 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7bd59cb856ab4370d2527c88bff0876a') in 0.051256 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 57.064701 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f33b4071561101e656b75481c8db1ce7') in 0.021661 seconds
+  Time since last request: 3.776572 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4d7b31bd079519843ba25e7a7a506e94') in 0.046183 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 124
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 6.835392 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '4d5501b288819bad9c701935a54c320d') in 0.022136 seconds
+  Time since last request: 9.047781 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'dccaeea87d2844db8ff03c07223c6b65') in 0.045406 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 124
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 3.055762 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e34df3fff0188e6a4bd36684a8c62eb0') in 0.020583 seconds
+  Time since last request: 8.852956 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e9890a08102e036a856d25e77cd2190d') in 0.047263 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 124
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 2.801834 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '44b75cb2847da2f83c91fcaf75c10b93') in 0.021327 seconds
+  Time since last request: 24.982407 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2d5925de798d17be7326e028db5ca738') in 0.047562 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 124
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 4.480059 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9e7701722e410ae4b0fc92d93c247b6f') in 0.021718 seconds
+  Time since last request: 5.806728 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ab6afc0ea38bd181169900ccab45cb01') in 0.051286 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 124
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 21.381890 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '411d487d5779f69b0ef7ce89ffba24f0') in 0.021512 seconds
+  Time since last request: 4.187814 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8f5b86bc815d07f579015f8993dfc826') in 0.045385 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 124
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 11.699331 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'af705fa4fccd1b1fc23ec787db0b62fa') in 0.020447 seconds
+  Time since last request: 117.165895 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '400076a0edb53d858d154bcb7ae4e475') in 0.046467 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 124
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 15.911610 seconds.
-  path: Assets/prefabs/UI Stuff/FullTimelineUI.prefab
-  artifactKey: Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/UI Stuff/FullTimelineUI.prefab using Guid(d8650d28bb3cc6646964b0ead76fea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'bdd266bc06dc030f6689257e78d46315') in 0.021999 seconds
+  Time since last request: 99.215042 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(370e7c928b2910c4a8c43786653fa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8adf4cff0c105ed910997c9af9ce4a4d') in 0.049300 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 124
+Number of asset objects unloaded after import = 129
 ========================================================================
 Received Import Request.
-  Time since last request: 48.182886 seconds.
-  path: Assets/Scenes/FullBuilt.unity
-  artifactKey: Guid(ea4728bc109bfaa47b5c960430736dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FullBuilt.unity using Guid(ea4728bc109bfaa47b5c960430736dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0762b440e4964ea37356bd08d7dee1bc') in 0.000662 seconds
+  Time since last request: 71.555549 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(d6ebf4e3ac6906e47a010ed032139334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(d6ebf4e3ac6906e47a010ed032139334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '39740fbc476254196ec462aebf9c5acf') in 0.000717 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Symbol file data-000002D2646AC010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D287566830 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D26391B010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D287566830 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D290ECC010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D28ED82010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D290ECC010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D290ED2A20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D26376F680 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285C87E30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D290639020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D2637F8640 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D290639020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D290639020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285E78010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D28756B040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D2866AC050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D2866AC050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285F2E250 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285E78010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D28EBD6020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D285E78010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D290639020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D290639020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D287263010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D28EB20040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D263749130 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.457 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.106 seconds
-Domain Reload Profiling: 1559ms
-	BeginReloadAssembly (159ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (209ms)
-		LoadAssemblies (288ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1106ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (464ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (347ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 21.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.3 KB). Loaded Objects now: 3623.
-Memory consumption went from 119.5 MB to 119.5 MB.
-Total: 3.033500 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.106000 ms MarkObjects: 2.621100 ms  DeleteObjects: 0.043400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.106521 seconds.
+  path: Assets/Sprites/AcidANOM1.png
+  artifactKey: Guid(09cbf19ea7c1e854ab610fb68ebb51a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AcidANOM1.png using Guid(09cbf19ea7c1e854ab610fb68ebb51a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8397b8b921a01771577b4b79fe42b9ff') in 0.066024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/AcidANOM3.png
+  artifactKey: Guid(46dc70cecc17e4343874f021edb35916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AcidANOM3.png using Guid(46dc70cecc17e4343874f021edb35916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c30d2db0466b9ffcc8038de3400a9a22') in 0.026441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/reader on.png
+  artifactKey: Guid(10697ec62728aad459485d10303dacb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/reader on.png using Guid(10697ec62728aad459485d10303dacb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '78bf11ad09ab19501e8509b7d4a58be5') in 0.018669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/fluorecent light.png
+  artifactKey: Guid(ea1bf614849421c4a808dae5e410a299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fluorecent light.png using Guid(ea1bf614849421c4a808dae5e410a299) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b55650930508d61ef24e6005e0f711ac') in 0.025902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/clipboard.png
+  artifactKey: Guid(2b14fb10c259f7644a1c97967a80c7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/clipboard.png using Guid(2b14fb10c259f7644a1c97967a80c7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3cf141668012adf700f3893d74f6e0b5') in 0.021530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
