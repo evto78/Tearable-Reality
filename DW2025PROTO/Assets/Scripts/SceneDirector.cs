@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SceneDirector : MonoBehaviour
 {
 
-    string[] terrors = {"test", "test2"};
+    string[] terrors = {"Galizard", "Icesythecle", "Clean Claw"};
 
     public int terrorSelectedNum;
     public int selected;
 
     string terrorSelected;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         terrorSelected = terrors[terrorSelectedNum];
@@ -30,7 +31,9 @@ public class SceneDirector : MonoBehaviour
 
     public void selector3()
     {
+
         selected = 2;
+
     }
 
     public void check()
