@@ -7,7 +7,6 @@ public class Clue : MonoBehaviour
     DialougeBoxPopUp diaBox;
     public bool collected;
     public string name;
-    public int id;
     public string shownDescription;
     private void Start()
     {
