@@ -188,7 +188,7 @@ PrefabInstance:
       objectReference: {fileID: 1057040491}
     - target: {fileID: 6275748116684238374, guid: 5269804996eaec448920ca653673af57, type: 3}
       propertyPath: terrorSelectedNum
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
