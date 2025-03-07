@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DetectorScript : MonoBehaviour
@@ -56,6 +57,11 @@ public class DetectorScript : MonoBehaviour
         }
 
         guessesRemaining -= 1; if (guessesRemaining < 0) { guessesRemaining = 0; }
+
+        if(guessesRemaining == 0 && TutorialController.instance.tutorialActive == false)
+        {
+            SceneManager.LoadScene("GameOverScreen");
+        }
     }
     void UpdateGraph()
     {
