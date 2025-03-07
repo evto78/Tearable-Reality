@@ -17,8 +17,6 @@ public class SpeechController : MonoBehaviour
         //speechText = speechText.GetComponentInChildren<TextMeshProUGUI>();
 
         instance = this;
-
-        displayText("AOAOAOA", 5, false);
     }
 
     // Update is called once per frame
