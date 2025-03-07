@@ -6451,6 +6451,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2962318616994377729, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 96.6916
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962318616994377729, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 2.0814
+      objectReference: {fileID: 0}
     - target: {fileID: 3263691064245556171, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -6490,6 +6498,22 @@ PrefabInstance:
     - target: {fileID: 5052116131952963394, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188766616433769639, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9ed573ed71afb654ea63ca2769437de1, type: 3}
+    - target: {fileID: 7188766616433769639, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188766616433769639, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188766616433769639, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8247995878523518653, guid: d8650d28bb3cc6646964b0ead76fea5f, type: 3}
       propertyPath: m_AnchoredPosition.x
