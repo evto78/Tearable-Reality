@@ -15,7 +15,7 @@ C:/Users/theoy/Documents/GitHub/Tearable-Reality/DW2025PROTO
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53492
+55838
 Successfully changed project path to: C:/Users/theoy/Documents/GitHub/Tearable-Reality/DW2025PROTO
 C:/Users/theoy/Documents/GitHub/Tearable-Reality/DW2025PROTO
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/theoy/Documents/GitHub/Tearable-Reality/DW2025PROTO
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32588]  Target information:
+Player connection [29232]  Target information:
 
-Player connection [32588]  * "[IP] 192.168.1.97 [Port] 0 [Flags] 2 [Guid] 3500796231 [EditorId] 3500796231 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NPBARAM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [29232]  * "[IP] 192.168.1.97 [Port] 0 [Flags] 2 [Guid] 3675760753 [EditorId] 3675760753 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NPBARAM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32588] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [32588] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29232] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29232] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 11.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008982 seconds.
-- Loaded All Assemblies, in  0.361 seconds
+Registered in 0.009362 seconds.
+- Loaded All Assemblies, in  0.356 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.302 seconds
-Domain Reload Profiling: 662ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.292 seconds
+Domain Reload Profiling: 647ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (65ms)
+	initialDomainReloadingComplete (66ms)
 	LoadAllAssembliesAndSetupDomain (139ms)
-		LoadAssemblies (108ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (137ms)
 			TypeCache.Refresh (135ms)
 				TypeCache.ScanAssembly (123ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (303ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (293ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (252ms)
+		SetupLoadedEditorAssemblies (243ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (174ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,104 +118,104 @@ Domain Reload Profiling: 662ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Symbol file data-0000020D7C255DB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C9E2F01C00 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7C258DC0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001CA051977A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7ACB1E30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C9E339B010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B3FA830 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001CA051977A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B3FF040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001CA0519BFB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D35C26CB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001CA059E6010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B3FF040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001CA05A07220 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B3FF040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001CA0519BFB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B289020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001CA05A07220 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D5889DC20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001CA05A07220 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7ACD2C40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001CA05668A30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B289020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001CA05E3D030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B4075A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001C9E3019E20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7C2715D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001CA05672E40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D5889DC20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001CA05A1FA30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7C2715D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001CA05672E40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B2AAA30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001CA054DA030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B2AAA30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001CA054DA030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D5889DC20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001CA05A37490 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7A9F27F0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001CA05A1FA30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B422010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001CA054DA030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7A9F27F0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001CA05A1FA30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B016420 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001CA0519BFB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B022230 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001CA0519BFB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B459620 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001CA05511640 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B459620 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001CA05511640 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B141230 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001CA05ACC220 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.615 seconds
+- Loaded All Assemblies, in  0.629 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.589 seconds
-Domain Reload Profiling: 1202ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (34ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (371ms)
-		LoadAssemblies (282ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (298ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (153ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (152ms)
 				TypeCache.ScanAssembly (139ms)
 			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (590ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (587ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (448ms)
+		SetupLoadedEditorAssemblies (445ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (345ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3622.
+Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3622.
 Memory consumption went from 123.8 MB to 123.7 MB.
-Total: 2.353300 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.080100 ms MarkObjects: 2.001100 ms  DeleteObjects: 0.089900 ms)
+Total: 2.655300 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.064500 ms MarkObjects: 2.367300 ms  DeleteObjects: 0.072000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -231,138 +231,2001 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 99103.133349 seconds.
-  path: Assets/Fonts/bradley-hand-itc SDF.asset
-  artifactKey: Guid(2c800c7d612a64d42b59a7ea56855b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/bradley-hand-itc SDF.asset using Guid(2c800c7d612a64d42b59a7ea56855b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '3debfc7e7d7d621145572b9d4c154065') in 0.160052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 147.842658 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ffe7e270f6597c203dc7b9e235d61661') in 0.034172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '50d377d8bf46dd716377ff52529d01ee') in 0.058968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F6BF010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071F0030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F6BF010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F6C3820 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EBDAE40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3C79010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3457030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06620020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3457030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3673BB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3673BB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3C79010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3673BB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3A91830 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3673BB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0735E010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3673BB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3673BB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3C79010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EBDAE40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0741A020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EBDAE40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.433 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.985 seconds
+Domain Reload Profiling: 1415ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (986ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3625.
+Memory consumption went from 119.8 MB to 119.8 MB.
+Total: 2.746900 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.087900 ms MarkObjects: 2.394500 ms  DeleteObjects: 0.030000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Symbol file data-0000020D35491C30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC5B3B020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001C9E374CC60 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7AC48020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001CA0741A020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC5B3B020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001C9E374CC60 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC477A020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001CA0F31DD70 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D58F4BA30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001CA0E9C7020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC477A020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001C9E370F010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC4780A30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001C9E34DC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D58C45FD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001CA07236020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7C2D8C50 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C9E33ED010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC597E020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001C9E3457030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B3B9020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001CA07236020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D588A8E20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001C9E34DC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC5988430 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001C9E34DC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7AECB020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C9E370F010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC5B3F830 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C9E34DC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC3DD8030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001CA0E7AC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC3DD8030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001CA0EA3B030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7B71E070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001CA06986010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7AECB020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001CA0F6BF010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC4126010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001CA505D0080 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7AECB020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001CA0F6BF010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D588A8E20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001CA0747E030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D588A8E20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001CA0E7E4A30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D7ABAD010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001CA0E9C7020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020BC44F5020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020D58F4BA30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001CA0E9C7020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.423 seconds
+- Loaded All Assemblies, in  0.418 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.987 seconds
-Domain Reload Profiling: 1407ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.995 seconds
+Domain Reload Profiling: 1411ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (203ms)
-		LoadAssemblies (264ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (269ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (14ms)
 			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (988ms)
+	FinalizeReload (996ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (437ms)
+		SetupLoadedEditorAssemblies (467ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3628.
+Memory consumption went from 119.8 MB to 119.8 MB.
+Total: 2.948000 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.103000 ms MarkObjects: 2.550100 ms  DeleteObjects: 0.036800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2F7CB40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA070B47F0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2F7CB40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FEF0D20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E9C7020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3034010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E34DC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E9FEE60 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3A7CF10 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E34DC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FEF0D20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EA23010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FEF0D20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E33BB020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3A7CF10 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA505D0080 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3A7CF10 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0747E030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0747E030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E9C7020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E9C7020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.432 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.012 seconds
+Domain Reload Profiling: 1440ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1012ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3631.
+Memory consumption went from 119.8 MB to 119.8 MB.
+Total: 2.877800 ms (FindLiveObjects: 0.263800 ms CreateObjectMapping: 0.093400 ms MarkObjects: 2.483000 ms  DeleteObjects: 0.036200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E34DC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E34DC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9BFC1A580 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F7F8020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E9FEE60 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F3D4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071DF670 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E9FEE60 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3A7CF10 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071DF670 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F3D4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F3D4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E9FEE60 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F3D4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071DF670 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E33BB020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3A7CF10 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA505D0080 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3A7CF10 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FDAC310 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FDAC310 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA506801D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071DF670 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F7F8020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.434 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.008 seconds
+Domain Reload Profiling: 1439ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1009ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3634.
+Memory consumption went from 119.8 MB to 119.8 MB.
+Total: 2.931500 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.526400 ms  DeleteObjects: 0.034700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2FEA020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50769020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2FEA020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50EB4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA507F1910 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA5079D020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F3D4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071DF670 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2E0B060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3A7CF10 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071DF670 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F3D4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F3D4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA5079D020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F3D4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508EF010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E33BB020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3A7CF10 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA505D0080 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3A7CF10 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0729FFC0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0729FFC0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA506801D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EDB7010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA507F1910 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.429 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.007 seconds
+Domain Reload Profiling: 1433ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1008ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3637.
+Memory consumption went from 119.8 MB to 119.8 MB.
+Total: 4.601100 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.133100 ms MarkObjects: 4.167800 ms  DeleteObjects: 0.040900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 104121.197892 seconds.
+  path: Assets/audio/SFX/openClipboard.wav
+  artifactKey: Guid(e4137206353521444ad71e87c59078db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio/SFX/openClipboard.wav using Guid(e4137206353521444ad71e87c59078db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4a4cb01afdf17552bcd14e4bb3783790') in 0.111822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 38.758307 seconds.
+  path: Assets/audio/SFX/JUMPSCARE2.mp3
+  artifactKey: Guid(1e22aee934c3fc94ca7d6fc7b471d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio/SFX/JUMPSCARE2.mp3 using Guid(1e22aee934c3fc94ca7d6fc7b471d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c41d7256f334eff9984ec4a2db17b315') in 0.013548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F031010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06FED020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F031010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06DDC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50769020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3C25010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E842010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E53C070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FD9F300 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E842010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06DDC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3C25010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06DDC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0741A020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA513CD020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA5121F420 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FF2F5A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071D7060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3634020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E842010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E842010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FDD1200 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA070A6010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EA5F020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.429 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.031 seconds
+Domain Reload Profiling: 1457ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1031ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 4.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3669.
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3650.
+Memory consumption went from 124.1 MB to 124.1 MB.
+Total: 2.823600 ms (FindLiveObjects: 0.271900 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.421900 ms  DeleteObjects: 0.032200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA051CF020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06FED020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA051CF020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06A08C50 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50769020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FF6B370 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E842010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E9FEE60 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FD9F300 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E842010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E842010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FF6B370 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E842010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EB07040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA5121F420 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FF2F5A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50BCF020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3634020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E842010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E842010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FDD1200 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA059E6010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EA5F020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.447 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.041 seconds
+Domain Reload Profiling: 1485ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1041ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3653.
+Memory consumption went from 124.3 MB to 124.3 MB.
+Total: 3.025400 ms (FindLiveObjects: 0.264000 ms CreateObjectMapping: 0.101900 ms MarkObjects: 2.610800 ms  DeleteObjects: 0.047300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F8D6010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06FED020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05209060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F8D6010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50769020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50EAC010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA07440020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E53C070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3171040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E38EF010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F8D6010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05B94030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F8D6010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2CC0080 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA5121F420 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F6BF010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2EDDDF0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F6BF010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA07440020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA07440020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9BFC0CAD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA059E6010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50769020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.439 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.962 seconds
+Domain Reload Profiling: 1398ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (963ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (459ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3656.
+Memory consumption went from 124.3 MB to 124.3 MB.
+Total: 2.819600 ms (FindLiveObjects: 0.294600 ms CreateObjectMapping: 0.091900 ms MarkObjects: 2.397400 ms  DeleteObjects: 0.034700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508AD260 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0710A010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508AD260 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508B1A70 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E416010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05B94030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FD9F300 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E9FEE60 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FD9F300 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F266E30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508B1A70 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05B94030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F6C5A20 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2CC0080 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA5121F420 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EA71010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2EDDDF0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EA71010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EA71010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EA71010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9BFC0CAD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E399D010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E416010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.445 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.079 seconds
+Domain Reload Profiling: 1521ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1080ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (475ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3659.
+Memory consumption went from 124.3 MB to 124.3 MB.
+Total: 2.998400 ms (FindLiveObjects: 0.299400 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.564000 ms  DeleteObjects: 0.034600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 754.737785 seconds.
+  path: Assets/Sprites/DesignWeek_final2.png
+  artifactKey: Guid(c33145e3cf3ff8d4d8c0bfa0a6c6b257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/DesignWeek_final2.png using Guid(c33145e3cf3ff8d4d8c0bfa0a6c6b257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '45ca8700ef8479bca018c185356811a0') in 0.120672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2ED8070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2DE7060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EAB84D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA10257330 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0710A010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9BFC0CAD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3526010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50E89060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FD9F300 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3526010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FDC7BD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9BFC0CAD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3AA1840 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA101DC090 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA5121F420 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FD9F300 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071D7060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FDAB1D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3526010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3526010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA072C0010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FFBEC60 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0710A010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.427 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.005 seconds
+Domain Reload Profiling: 1430ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (270ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1006ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3664.
+Memory consumption went from 124.1 MB to 124.1 MB.
+Total: 3.013800 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.088400 ms MarkObjects: 2.631900 ms  DeleteObjects: 0.040700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06B32010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06FED020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EAB84D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F031010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0710A010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9BFC0CAD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3526010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50E89060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FD9F300 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3526010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FDC7BD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9BFC0CAD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FDC7BD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FFF3D90 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA10247050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FD9F300 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA5141F020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FDAB1D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3526010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3526010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FDCF020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FFBEC60 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0710A010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.444 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.989 seconds
+Domain Reload Profiling: 1431ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (990ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3667.
 Memory consumption went from 124.4 MB to 124.3 MB.
-Total: 2.905100 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.522200 ms  DeleteObjects: 0.030800 ms)
+Total: 2.933800 ms (FindLiveObjects: 0.265300 ms CreateObjectMapping: 0.126500 ms MarkObjects: 2.502500 ms  DeleteObjects: 0.038600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06DDC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06FED020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EAB84D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06DDC020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0710A010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EA23010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA51402780 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9BFC24AF0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FD9F300 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2D96010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA51402780 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FC11D30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EA23010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FC11D30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FFF3D90 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA10247050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FD9F300 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50C51A40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3634020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FBD3140 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FBD3140 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E372F020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E33BB020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0710A010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.445 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.080 seconds
+Domain Reload Profiling: 1522ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1080ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3670.
+Memory consumption went from 124.4 MB to 124.3 MB.
+Total: 2.878900 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.482300 ms  DeleteObjects: 0.040200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0743A040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA718A9030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EAB84D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0743A040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FF7CBB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA5079D020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50B8B050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA10040120 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0573E030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50B8B050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0743A040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA5079D020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FC11D30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA71805040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA10247050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0711C020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50C51A40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9BFE42310 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F336030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F336030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E416010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E370F010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FF7CBB0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.436 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.996 seconds
+Domain Reload Profiling: 1429ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (997ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3673.
+Memory consumption went from 124.4 MB to 124.3 MB.
+Total: 2.793600 ms (FindLiveObjects: 0.315200 ms CreateObjectMapping: 0.095800 ms MarkObjects: 2.345100 ms  DeleteObjects: 0.036600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50EAC010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50735030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EAB84D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50EAC010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05BB4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05B32020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50844020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA71825050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0573E030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50844020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50EAC010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05B32020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FC11D30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA71AA3040 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA10247050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0711C020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50C51A40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0711C020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F2C2020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0F2C2020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E416010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA71889020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05BB4030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.419 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.944 seconds
+Domain Reload Profiling: 1360ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (945ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (416ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3676.
+Memory consumption went from 124.4 MB to 124.3 MB.
+Total: 3.233000 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.114700 ms MarkObjects: 2.806200 ms  DeleteObjects: 0.042600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50EAC010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA070A6010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EAB84D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50EAC010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA1007F070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50D92010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA71ADD030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E7DC050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0573E030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E352DDD0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA71ADD030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA750E2010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50D92010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FC11D30 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50FE0020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA10247050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0711C020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50C51A40 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0711C020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA51402780 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA51402780 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E416010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50715020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA1007F070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.508 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.960 seconds
+Domain Reload Profiling: 1465ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (960ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3679.
+Memory consumption went from 124.4 MB to 124.3 MB.
+Total: 2.611400 ms (FindLiveObjects: 0.241600 ms CreateObjectMapping: 0.082900 ms MarkObjects: 2.256100 ms  DeleteObjects: 0.030000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 562.461158 seconds.
+  path: Assets/Scenes/GameOverScreen.unity
+  artifactKey: Guid(a27ebd3eaf76ba24185c8df6fdcea434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOverScreen.unity using Guid(a27ebd3eaf76ba24185c8df6fdcea434) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '673836fbef4246e6ad1ea0823dadbbc8') in 0.006629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2ED8070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50FE0020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E61C050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EDDB030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E416010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E3F4020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05A0E4D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06620020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0573E030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05A0E4D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05BD6070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E3F4020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05BD6070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071D7060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05A33030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0711C020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3843020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FC34DA0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05A0E4D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05A0E4D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA072C0010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FFF3D90 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E416010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.435 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.978 seconds
+Domain Reload Profiling: 1410ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (979ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3682.
+Memory consumption went from 124.1 MB to 124.1 MB.
+Total: 2.617700 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.091700 ms MarkObjects: 2.201700 ms  DeleteObjects: 0.035100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CA05EAE450 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E2ED8070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA50FE0020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0E61C050 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EDDB030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FBA1FC0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA71AD5020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05A0E4D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA06620020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0573E030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA508DD3A0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05A0E4D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05BD6070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA71AD5020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05BD6070 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0ECC1020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA071D7060 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05A33030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0711C020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E3843020 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FC34DA0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05A0E4D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA05A0E4D0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA072C0010 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0EC19030 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CA0FBA1FC0 doesn't match image C:\Users\theoy\Documents\GitHub\Tearable-Reality\DW2025PROTO\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.429 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.969 seconds
+Domain Reload Profiling: 1396ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3685.
+Memory consumption went from 124.4 MB to 124.3 MB.
+Total: 3.049100 ms (FindLiveObjects: 0.265400 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.636900 ms  DeleteObjects: 0.042100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
