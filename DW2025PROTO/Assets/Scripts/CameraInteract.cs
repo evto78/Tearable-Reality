@@ -23,10 +23,12 @@ public class CameraInteract : MonoBehaviour
         Debug.DrawLine(cam.transform.position, cam.transform.position + cam.transform.forward * 7f);
         if (Physics.Raycast(ray, out hit, 7f))
         {
-            if (hit.collider.gameObject.tag == "Interactable" && hit.collider.gameObject.GetComponent<Clue>().collected == false)
+            if (hit.collider.gameObject.tag == "Interactable")
             {
+                //Debug.Log("I see interactable");
                 if (Input.GetMouseButtonDown(0))
                 {
+                    //Debug.Log("Interacting");
                     hit.transform.gameObject.SendMessage("Interact", SendMessageOptions.DontRequireReceiver);
 
                     clueNum++;

@@ -14,6 +14,7 @@ public class Clue : MonoBehaviour
     }
     public void Interact()
     {
+        //Debug.Log("Interacted");
         if (!collected) { collected = true; }
         diaBox.PopOut(shownDescription);
     }
